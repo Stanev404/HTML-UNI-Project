@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+
+
+html, body{
+    margin: 0;
+    /* padding-left: 5px; */
+    height: 100%;
+    width: 100%;
+}
+
+
+.intro{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: url(https://farm9.staticflickr.com/8667/16697293462_ed0ba96884_o.jpg) no-repeat 50% 50%;
+    display: table;
+    top: 0;
+    background-size: cover;
+}
+
+#header{
+    text-align:center;
+    padding: 0;
+    background-color: rgb(194, 145, 40);
+    margin: 0;
+}
+
+.intro .inner{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+
+.content{
+    max-width: 500px;
+    margin:0 auto;
+    text-align:center;
+}
+
+.content h1 {
+    font-family: 'Raleway', sans-serif;
+    color: #B6B6B4;
+    text-shadow: 0px 0px 500px #000;
+    text-align: left;
+    font-size: 500%;
+    margin-left: 10px;
+}
+.wrapper{
+  margin-left: ;
+}
+
+
+#h2{
+    font-family: 'Raleway', sans-serif;
+    color: #B6B6B4;
+    text-shadow: 0px 0px 500px #000;
+    text-align: center;
+    position: relative;
+    margin-top: -80px;
+    margin-left: 50px;
+    font-size: 500%;
+}
+
+.btn{
+    border-radius: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #D4A017;
+    font-size: 175%;
+    border: solid #D4A017 3px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right:20px;
+}
+
+.btn:hover{
+    color: #728C00;
+    border: solid #728C00; 3px;
+}
+
+
+
+p {
+    font-size: 160%;
+    line-height: 210%;
+    text-align: justify;
+    margin: 3%;
+    font-family:sans-serif;
+}
+
+#logo{
+  position:relative;
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: rgb(194, 145, 40);
+}
+
+
+@media screen and (max-width: 750px){
+    #h1{
+        font-size:250%;
+        margin-left:80px;
+
+
+    }
+
+    #h2{
+        margin-top: -40px;
+        font-size:250%;
+    }
+    .btn {
+        font-size: 110%;
+        padding: 7px 15px;
+    }
+
+    p{
+        font-size: 100%;
+        line-height: 160%;
+    }
+}
