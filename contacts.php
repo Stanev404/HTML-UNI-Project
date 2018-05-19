@@ -13,6 +13,8 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
 	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
 <?php include("form_process.php"); ?>
@@ -24,7 +26,7 @@
 
 <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
   <div class="container-fluid">
-    <a class="navbar-brand" href="index.html"><img src="img/ivan-logo.png"></a>
+    <a class="navbar-brand" href="index.html"><img src="img/w3newbie.png"></a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse"
     data-target="#navbarResponsive">
@@ -51,6 +53,13 @@
 </div>
 </nav>
 
+<div style="width:350px; margin:0 auto; padding-top: 25px;">
+<div class="row">
+	<div class="col-12">
+		<img class="image-resize" src="img/contact-me.png" alt="Contact me">
+	</div>
+</div>
+</div>
 
 
 
@@ -87,28 +96,39 @@
 
 <div class = "container-fluid">
 	<div class= "row text-center connect">
-		<div class = "col-12">
+		<div class = "col-md-4 col-xs-12">
 			<h1 class="display-4">Connect</h1>
+			</div>
+			<div class = "col-md-4 col-xs-12">
+				<h1 class="display-4">Via</h1>
+				</div>
+				<div class = "col-md-4 col-xs-12">
+					<h1 class="display-4">Socials</h1>
+					</div>
 
+			<hr>
 		</div>
+
+		<div class= "row text-center connect">
 		<div class = "col-12 social">
-			<a href="#"><i class="fab fa-facebook"></i></a>
-			<a href="#"><i class="fab fa-twitter"></i></a>
-			<a href="#"><i class="fab fa-instagram"></i></a>
-			<a href="#"><i class="fab fa-youtube"></i></a>
+			<a href="https://www.facebook.com/ivan.stanev.716"><i class="fab fa-facebook"></i></a>
+			<a href="https://twitter.com/staneeev1"><i class="fab fa-twitter"></i></a>
+			<a href="https://www.instagram.com/stan_lpfc/"><i class="fab fa-instagram"></i></a>
+			<a href="https://www.youtube.com/user/stanev123"><i class="fab fa-youtube"></i></a>
 		</div>
 	</div>
 
 </div>
 
+
 <footer>
-	<div class="container-fluid padding">
+	<div class="container-fluid">
 		<div class="row text-center">
 			<div class="col-md-4">
 				<img src="img/ivan-logo.png">
 				<hr class="light">
 				<p>+359-0890-53-52-33</p>
-				<p>zirow000@gmail.com</p>
+				<p>zirow0000@gmail.com</p>
 				<p>Montevideo</p>
 				<p>Sofia, Bulgaria, 1000</p>
 			</div>

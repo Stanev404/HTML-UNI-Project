@@ -60,7 +60,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") { // ako e sumbitnato
       $message_body .= "$key: $value\n";
     }
 
-    $to = "zirow000@gmail.com";
+    $to = "zirow0000@gmail.com";
     $subject = "Contact Form Submit";
 
 
