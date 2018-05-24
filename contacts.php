@@ -41,9 +41,6 @@
         <li class="nav-item">
           <a class="nav-link" href="about_me.html">About Me</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Home</a>
-        </li>
         <li class="nav-item active">
           <a class="nav-link" href="contacts.php">Contacts</a>
         </li>
