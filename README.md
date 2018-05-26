@@ -10,3 +10,8 @@ University project
  *   Отделни файлове за css и javascript без минифициране и обфускиране;
   *  Описание на проекта и реализацията в рамките на до 2 страници
   *  HTML и CSS файлове трябва да се валидират съответно от https://validator.w3.org/ и http://jigsaw.w3.org/css-validator/
+
+## Result
+![index](img/index_intro.png)
+![about_me](img/about_me_screenshot.png)
+![contacts](img/contacts_screenshot.png)
