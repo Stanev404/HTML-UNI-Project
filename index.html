@@ -188,12 +188,32 @@
 			</div>
 
 			<div class="col-12 bottom">
+				<a href="#" class="to-top" id="scr">
+					<i class="fas fa-arrow-up"></i>
+				</a>
 				<hr class="light-100">
 				<h5>&copy; Ivan Stanev 2018</h5>
 			</div>
 		</div>
 	</div>
 </footer>
+<script>
+$(document).ready(function(){
+		var offset = 250;
+		var duration = 500;
+		$(window).scroll(function(){
+			if($(this).scrollTop() > offset){
+				$('.to-top').fadeIn(duration);
+			}else{
+				$('.to-top').fadeOut(duration);
+			}
+		})
+		$('#scr').click(function(){
+
+			$('html,body').animate({scrollTop:0},duration);
+		})
+	})
+</script>
 
 </body>
 </html>
