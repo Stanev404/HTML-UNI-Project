@@ -26,7 +26,7 @@
 
 <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
   <div class="container-fluid">
-    <a class="navbar-brand" href="index.html"><img src="img/w3newbie.png"></a>
+    <a class="navbar-brand" href="index.html"><img src="img/stanev2.png"></a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse"
     data-target="#navbarResponsive">
@@ -122,7 +122,7 @@
 	<div class="container-fluid">
 		<div class="row text-center">
 			<div class="col-md-4">
-				<img src="img/ivan-logo.png">
+				<img src="img/stanev2.png">
 				<hr class="light">
 				<p>+359-0890-53-52-33</p>
 				<p>zirow0000@gmail.com</p>
