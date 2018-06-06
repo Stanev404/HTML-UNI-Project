@@ -12,6 +12,6 @@ University project
   *  HTML и CSS файлове трябва да се валидират съответно от https://validator.w3.org/ и http://jigsaw.w3.org/css-validator/
 
 ## Result
-![index](img/screenshot_2.png)
-![about_me](img/screenshot_1.png)
-![contacts](img/screenshot_3.png)
+![](img/Screenshot_2.png)
+![](img/Screenshot_1.png)
+![](img/Screenshot_3.png)
