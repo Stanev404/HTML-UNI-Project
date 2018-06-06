@@ -8,7 +8,7 @@
 	-webkit-font-smoothing:antialiased;
 	-moz-font-smoothing:antialiased;
 	-o-font-smoothing:antialiased;
-	font-smoothing:antialiased;
+	/* font-smoothing:antialiased; */
 	text-rendering:optimizeLegibility;
 }
 html,body{
@@ -230,7 +230,7 @@ h5{
 	padding-bottom: 1rem;
 }
 p{
-	margin: 1 auto;
+	margin: 10px auto;
 }
 
 
