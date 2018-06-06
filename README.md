@@ -1,4 +1,4 @@
-# HTML-UNI-Project
+﻿# HTML-UNI-Project
 University project 
 
 Курсовата работа е уеб сайт на избрана от студента тема. Задължителни изисквания към разработката:
@@ -12,6 +12,6 @@ University project
   *  HTML и CSS файлове трябва да се валидират съответно от https://validator.w3.org/ и http://jigsaw.w3.org/css-validator/
 
 ## Result
-![index](img/index_intro.png)
-![about_me](img/about_me_screenshot.png)
-![contacts](img/contacts_screenshot.png)
+![index](img/screenshot_2.png)
+![about_me](img/screenshot_1.png)
+![contacts](img/screenshot_3.png)
