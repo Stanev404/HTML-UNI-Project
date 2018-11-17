@@ -11,6 +11,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<script src="js/script.js"></script>
 	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 	<link href="about_me_style.css" rel="stylesheet">
 
@@ -113,6 +114,33 @@
 			</div>
 	</div>
 </div>
+
+<div class="row">
+		<div class="col-12">
+
+	<h2 class="display-4 text-center"><strong>Ask Me</strong></h2>
+	<hr class="style-six"/>
+	</div>
+</div>
+
+<div class="row text-center">
+	<div class="col-12">
+
+
+<div class="form">
+Name: <input type="text" id="name"  />
+Your question: <textarea rows="3" col="30" id="bodyText"></textarea>
+<button type="button" id="addQuestion" class="btn btn-success btn-lg">Submit </button>
+</div>
+</div>
+
+</div>
+
+<div class="row text-center" >
+<div class="col-12" id="question-container">
+
+</div>
+</div>
 <!--- Footer -->
 <footer>
 	<div class="container-fluid">
@@ -156,23 +184,6 @@
 	</div>
 </footer>
 
-<script>
-$(document).ready(function(){
-		var offset = 250;
-		var duration = 500;
-		$(window).scroll(function(){
-			if($(this).scrollTop() > offset){
-				$('.to-top').fadeIn(duration);
-			}else{
-				$('.to-top').fadeOut(duration);
-			}
-		})
-		$('#scr').click(function(){
-
-			$('html,body').animate({scrollTop:0},duration);
-		})
-	})
-</script>
 
 
   </body>
