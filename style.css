@@ -24,7 +24,7 @@ html,body{
 .carousel-caption{
   position: absolute;
   top: 50%;
-  transform: translateY(-28%); // po nadolu
+  transform: translateY(-28%); 
 }
 
 .carousel-caption h1{
