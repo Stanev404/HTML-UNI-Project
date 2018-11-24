@@ -1,14 +1,27 @@
 function render(data) {
 
-  var html =   "<div class='row text-center'><div class='col-12' style='text-align: center;margin: 20px 0;'><div class='card' style='width: 25%;display: inline-block;'><div class='card-header'>Question " + cnt + "</div><div class='card-body'><blockquote class='blockquote text-center'><p class='mb-0'>" + data.body + "</p><footer class='blockquote-footer text-center' style='color:#c7d8cd;height: 80px;' >Asked by: <cite title='Source Title' style='color:#ffff;'>" + data.name + "</cite></footer></blockquote></div></div></div></div>";
-  $("#question-container").append(html);
+  var html =   "<div class='row text-center'>";
+        html += "<div class='col-12' style='text-align: center;margin: 20px 0;'>";
+          html += "<div class='card'>";
+            html += "<div class='card-header'>Comment " + cnt + "</div><div class='card-body'><blockquote class='blockquote text-center'><p class='mb-0'>" + data.body + "</p><footer class='blockquote-footer text-center' style='color:#c7d8cd;height: 80px;' >Said by: <cite title='Source Title' style='color:#ffff;'>" + data.name + "</cite></footer></blockquote></div></div></div></div>";
+  $("#comment-container").append(html);
 }
 
 $(document).ready(function() {
 
-	var question = [];
+	var comment = [];
 	cnt = 0;
-	$('#addQuestion').click(function() {
+	$('#addComment').click(function() {
+    if($('#bodyText').val() == ""){
+      alert("You must enter comment!");
+      return;
+    }
+    if($('#name').val() == ""){
+      alert("You must enter name!");
+      return;
+    }
+
+    else{
 	  var addObj = {
 	    "name": $('#name').val(),
 	    "body": $('#bodyText').val()
@@ -16,12 +29,12 @@ $(document).ready(function() {
 	  console.log(addObj);
 		cnt = cnt + 1;
 		console.log(cnt);
-	  question.push(addObj);
+	  comment.push(addObj);
 	  render(addObj);
 
 		$('#name').val('');
 		$('#bodyText').val('');
-
+}
 
 	});
 

@@ -131,8 +131,13 @@ body{
   text-align: center;
 }
 
-#addQuestion{
+#addComment{
   margin-top: 20px;
+}
+
+.card{
+  width: 25%;
+  display: inline-block;
 }
 
 /* .about-me hr{
@@ -246,6 +251,9 @@ hr.style-six-long{
   .plovdiv p{
     font-size: 1.2rem;
   }
+  .card{
+    width: 55%;
+  }
 
 }
 
@@ -284,5 +292,8 @@ hr.style-six-long{
   }
   .plovdiv p{
     font-size: 1rem;
+  }
+  .card{
+    width: 80%;
   }
 }
